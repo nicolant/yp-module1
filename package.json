@@ -2,9 +2,9 @@
   "name": "yp-module1",
   "version": "0.0.1",
   "description": "Chat web-app",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.hbs",
+    "build": "parcel build index.hbs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nicolant/yp-module1#readme",
   "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "parcel": "^2.8.0"
   }
 }
